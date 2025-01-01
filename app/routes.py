@@ -1,5 +1,6 @@
 from flask import Blueprint, jsonify, request
 from .models import Server
+from app import db
 
 main_bp = Blueprint('main', __name__)
 
